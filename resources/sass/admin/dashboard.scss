@@ -1,0 +1,48 @@
+
+.vue-sidebar{ height: 100%;  background: white; box-shadow: #ff000036 10px 10px 10px;
+    .title{ background: rgba(202, 0, 0, 0.44); color: #0b2e13; font-family: 'Kaushan Script', cursive;
+        h5{ text-align: center; width: 100%; padding: 20px 0; }
+        h4{ text-align: center; width: 100%; padding: 20px 0; display: none; }
+    }
+   .navigation-items{
+       ul{ font-family:  'Roboto Mono', monospace;
+            li{ transition: font-size  0.5s,font-weight 0.5s;
+                &:hover{ font-size: 16px; font-weight: bold; }
+                a{ color: black; text-decoration: none; }
+            }
+       }
+   }
+
+    .user-profile{ margin-top: 200px;
+        img{ display: block; margin:auto; width: 45px; transition: width  0.5s,box-shadow 0.5s;
+            &:hover{ width: 65px; box-shadow: #c31c2c 0 0 10px; }
+        }
+    }
+    .social-icon{ background: rgba(46, 46, 46, 0.94); color: white; padding: 7px; border-radius: 19px; font-size: 10px;  transition: font-size  0.5s;
+    &:hover{ font-size: 20px; margin-left: -3px; margin-right: -3px; }
+    }
+
+}
+
+.dashboard-wrapper{ width: 100%; margin: 0; padding-bottom: 50px;
+    .dashboard-body{ margin-top: 50px;
+
+        .news-data{ background: gray; height: 200px; width: 200px; float: right; transition: width .5s,height .5s;
+            h5{ margin: 52px; font-family:  'Roboto Mono', monospace; font-size: 36px; font-weight: bold; }
+            &:hover{ height: 180px; width: 180px; background: #5a5a5a; }
+        }
+        .user-data{ background: #25a0e6; height: 200px; width: 200px; margin: auto; transition: height .5s,width .5s;
+            h5{ font-size: 36px; font-family:  'Roboto Mono', monospace; font-weight: bold; padding: 50px; }
+            &:hover{ height: 180px; width: 180px; background: #1a70a1; }
+        }
+        .comment-data{ background: #ff0110; height: 200px; width: 200px; float: left; transition: height .5s,width .5s;
+            h5{ margin: 52px; font-family:  'Roboto Mono', monospace; font-size: 36px; font-weight: bold; }
+            &:hover{ height: 180px; width: 180px; background: #a7010a; }
+        }
+    }
+}
+
+.create-news-wrapper{
+padding: 80px;
+}
+
